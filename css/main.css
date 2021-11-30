@@ -1,0 +1,45 @@
+:root {
+    --azul_Estandar:#395563;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+header{
+    background:#ffffff;
+    position: sticky;
+    height:125px;
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 10%);
+  
+}
+a.logo{
+    margin-top: 32px;
+    margin-left: 50px;
+    float: left;
+}
+nav.menu{
+    float: right;
+    margin-right: 50px;
+}
+
+nav.menu ul li{
+    display: inline-block;
+    padding: 0 8px;
+    padding-bottom: 8px;
+    margin-top: 75px;
+}
+
+nav.menu ul li a{
+    border-radius: 4px;
+    color: var(--azul_Estandar);
+    font-weight:700;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 13px;
+}
