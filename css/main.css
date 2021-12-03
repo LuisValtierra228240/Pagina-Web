@@ -43,3 +43,138 @@ nav.menu ul li a{
     font-size: 12px;
     padding: 10px 13px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:var(--azul_Estandar);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color:rgb(214, 213, 213)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-mega-sub-title{
+position: static;
+}
+
+.dropdown-mega-sub-title {
+  background-color: white;
+  position: relative;
+  left: 20px;
+  bottom: 7px;
+}
+
+.dropdown-item {
+  background-color: white;
+  position: relative;
+  left: 10px;
+  bottom: 15px;
+}
+
+.btn-danger-dropdown-toggle{
+  color: white;
+}
+
+header > ul > li.dropdown .dropdown-mega-sub-title {
+  color: var(--azul_Estandar); 
+  font-size: 1em; 
+  line-height: 1.5em; 
+  font-weight: 600; 
+  margin-top: 20px;
+  padding-bottom: 5px; 
+}
+
+* {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+li {
+  line-height: 24px;
+  line-height: 0px;
+}
+
+header > ul > li.dropdown .dropdown-menu {
+  top: -1000px; 
+  display: block; 
+  opacity: 0; 
+  left: auto; 
+  border-radius: 0 4px 4px; 
+  border: 0; 
+  border-top: 5px solid #CCC; 
+  box-shadow: 0 20px 45px rgb(0 0 0 / 8%); 
+  margin: -3px 0 0 0; 
+  min-width: 200px; 
+  padding: 5px; 
+  text-align: left; 
+}
+
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+body {
+  background-color: white; 
+  color: #606060; 
+  font-family: "Open Sans", Arial, sans-serif; 
+  font-size: 14px; 
+  line-height: 22px; 
+  margin: 0; 
+}
+
+header > ul > li .dropdown-mega-sub-title:first-child {
+  margin-top: 0;
+}
+
+.col-2{
+  float: left;
+  position: relative;
+  left: 242px;
+  bottom: 295px;
+}
