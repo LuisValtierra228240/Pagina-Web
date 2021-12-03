@@ -178,3 +178,15 @@ header > ul > li .dropdown-mega-sub-title:first-child {
   left: 242px;
   bottom: 295px;
 }
+
+/** SLIDER **/
+
+section.slider{
+  position: relative;
+}
+
+section.slider img.item-slider{
+  width: 100%;
+}
+
+
