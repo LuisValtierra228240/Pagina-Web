@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css" crossorigin="anonymous">
     <title>INICIO | IEESONORA</title>
     <link rel="stylesheet" href="css/main.css">
+
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
@@ -140,7 +144,43 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
           </div>
+
+
     </section>
+
+    <section class="contenedor elementos">
+      <center><h6>Actividades Recientes</h6></center>
+      
+        <a class="twitter-timeline" data-lang="es" data-width="350" data-height="481" href="https://twitter.com/IEESonora?ref_src=twsrc%5Etfw">Tweets by IEESonora</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="owl-carousel owl-theme owl">
+              <div class="item" style="width: 355px; padding: 0 20px 10px 0px;">
+                <a href="http://">
+                  <img src="assets/images/iees_209083.jpg" alt="Owl Image" class="padding-bottom-12">
+                </a>
+                <center><h2>En el marco del Día Naranja personal del IEE Sonora se manifestó con cartelones en Blvd. Rosales, de Colosio a Luis Encinas para poner un alto a la violencia contra las mujeres y niñas.</h2></center>
+              </div>
+              <div class="item" style="width: 355px; padding: 0 20px 10px 0px;">
+                <a href="http://">
+                  <img src="assets/images/escalinatas_682175.jpg" alt="Owl Image" class="padding-bottom-12">
+                </a>
+                <center><h2>El IEE Sonora se suma a la Campaña Únete de ONU Mujeres México  Pinta el mundo de naranja, PONGAMOS FIN A LA VIOLENCIA CONTRA LAS MUJERES YA</h2></center>
+              </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+      <section class="contenedor">
+      <center><div class="owl-carousel owl-theme" data-plugin-options='{"items":1}' style="padding-top: 10px;">
+        <div class="item" style="width: 1116px; padding: 4px; border: 1px solid #ddd; border-radius: 4px;">
+          <a href="http://">
+            <img src="assets/images/bannerpersonassancionadas_059392.jpg" alt="Owl Image">
+          </a>
+        </div>
+    </div></center>
+  </section>
 <br>
 <br><br><br><br><br><br><br><br>
 <br>
@@ -155,6 +195,19 @@
 <br>
 <br>
 <br>
-<script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<script src="js/owl/owl.carousel.min.js" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function() {
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+      nav: true,
+      loop: false,
+      autoWidth:true,
+          items: 2
+    })
+  })
+</script>
+<script src="js/bootstrap/bootstrap.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
