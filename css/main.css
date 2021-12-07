@@ -28,9 +28,9 @@ header {
   }
 
 
-a.logo{
+  a.logo {
     margin-top: 32px;
-    margin-left: 50px;
+    margin-left: 89px;
     float: left;
 }
 nav.menu{
@@ -38,11 +38,11 @@ nav.menu{
     margin-right: 50px;
 }
 
-nav.menu ul li{
-    display: inline-block;
-    padding: 0 8px;
-    padding-bottom: 8px;
-    margin-top: 75px;
+nav.menu ul li {
+  display: inline-block;
+  padding: 0 8px;
+  padding-bottom: 8px;
+  margin-top: 55px;
 }
 
 nav.menu ul li a{
@@ -51,7 +51,7 @@ nav.menu ul li a{
     font-weight:700;
     text-decoration: none;
     font-size: 12px;
-    padding: 10px 13px;
+    padding: 10px 16px;
 }
 
 
@@ -70,14 +70,15 @@ li {
 li a, .dropbtn {
   display: inline-block;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover, .dropdow:hover .dropbtn {
-  background-color: aliceblue;
+  background-color: var(--azul_Estandar);
 }
+
 
 li.dropdow {
   display: inline-block;
@@ -86,6 +87,7 @@ li.dropdow {
 .dropdow-content {
   display: none;
   position: absolute;
+  margin-left: -161px;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -93,7 +95,7 @@ li.dropdow {
 }
 
 .dropdow-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -102,6 +104,47 @@ li.dropdow {
 
 .dropdow-content a:hover {background-color: #f1f1f1;}
 
+/**/
+li a, .drop {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdo:hover .drop {
+  background-color: var(--azul_Estandar);
+}
+
+li.dropdo {
+  display: inline-block;
+}
+
+.dropdo-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdo-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdo-content a:hover {background-color: #f1f1f1;}
+
+.dropdo:hover .dropdo-content {
+  display: block;
+}
+/**/
+
 .dropdow:hover .dropdow-content {
   display: block;
 }
@@ -109,6 +152,147 @@ li.dropdow {
 header .nav > ul > li.dropdow-mega .dropdow-mega-content {
   padding: 20px 30px;
 }
+  
+.dropdow-mega-sub-title {
+    position: relative;
+    left: -58px;
+    bottom: 4px;
+}
+
+.dropdow-mega-sub-title-2 {
+  position: relative;
+  left: -67px;
+  bottom: 7px;
+}
+
+.dropdow-mega-sub-title-3 {
+  position: relative;
+  left: 278px;
+  bottom: 421px;
+}
+
+.dropdow-mega-sub-title-4 {
+  position: relative;
+  left: 330px;
+  bottom: 422px;
+}
+
+  
+.dropdow-item {
+  position: relative;
+  left: -71px;
+  bottom: 14px;
+}
+
+.dropdow-item-2 {
+  position: relative;
+  left: -84px;
+  bottom: 24px;
+}
+
+.dropdow-item-3 {
+  position: relative;
+  left: 261px;
+  bottom: 437px;
+}
+
+.dropdow-item-4 {
+  position: relative;
+  left: 312px;
+  bottom: 430px;
+}
+
+  
+  .col-2{
+    float: left;
+    position: relative;
+    left: 254px;
+    bottom: 414px;
+  }
+
+
+  h6, .h6 {
+    font-size: small;
+}
+
+  header nav ul li.dropdow .dropdow-menu li:last-child a {
+    border-bottom: 0;
+}
+
+header nav ul li.dropdow-mega .dropdow-mega-sub-title {
+  color: #333333;
+  display: block;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 600;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header nav  ul  li.dropdown .dropdown-menu {
+  top: -1000px;
+  display: block;
+  opacity: 0;
+  left: auto;
+  border-radius: 0 4px 4px;
+  border: 0;
+  border-top: 5px solid #CCC;
+  box-shadow: 0 20px 45px rgb(0 0 0 / 8%);
+  margin: -3px 0 0 0;
+  min-width: 200px;
+  padding: 5px;
+  text-align: left;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+  box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+}
+
+.row {
+  margin-right: 142px;
+  margin-left: 70px;
+  margin-bottom: 145px;
+  margin-top: 19px;
+}
+
+.col {
+  flex: 118 103 376%;
+}
+
+.dropdow-mega-sub-title{
+  font-size: 14px
+}
+
+.dropdow-mega-sub-title-2{
+  font-size: 14px
+}
+
+
 
 
 /** SLIDER **/
