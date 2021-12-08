@@ -10,6 +10,7 @@ body{
     padding:0;
     margin:0;
     font-family: "Open Sans", Arial, sans-serif;
+    color: #606060;
 }
 header{
     background:#F1F1F1;
@@ -317,9 +318,9 @@ section.slider img.item-slider{
       border-bottom: 2px solid #ccc;
 }
 
-.elementos h6{
-  padding-bottom: 44px;
+.contenedor h6{
   font-family: 'Oswald', sans-serif;
+  padding-bottom: 44px;
   font-size: 34px;
   text-transform: uppercase;
   font-weight: 400;
@@ -346,6 +347,45 @@ section.slider img.item-slider{
 .twitter-timeline {
   margin-left: 20px;
   float: right;
+}
+
+.contenedor h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 50px;
+  line-height: 66px;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  display:  inline-block;
+  color: black;
+}
+
+.galeria {
+  width: 33.33333333%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 12px;
+}
+
+.galeria h2 {
+  font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.galeria h3 {
+  color: #333;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 18px;
+  margin: 0 0 14px 0;
 }
 
 
