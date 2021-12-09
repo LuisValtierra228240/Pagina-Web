@@ -391,7 +391,6 @@ section.slider img.item-slider{
 }
 
 /** ELECCIONES 2021**/
-
 .imagen-texto{
   width: 58.33333333%;
   padding-left: 15px;
@@ -502,6 +501,146 @@ width: 100%;
 }
 
 .autor {
+  font-family: 'Arial, Verdana, Hervetica', sans-serif;
+    height: 24px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    position: relative;
+    margin-top: 25px;
+    z-index: 200;
+}
+
+/** CANDIDATURAS INDEPENDIENTES**/
+
+h1.titulo-CANDIDATURAS {
+  position: relative;
+  top: 530px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 8px;
+  line-height: 66px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  color: black;
+}
+
+.imagen-texto-1{
+  width: 58.33333333%;
+  padding-left: 118px;
+  padding-right: 38px;
+  padding-top: 575px;
+  display: block;
+  height: auto;
+  float: left;
+}
+.imagen-texto-1 img{
+width: 100%;
+}
+
+.texto-candidaturas{
+  width: 41.66666667%;
+  margin: 0;
+  padding-left: 0px;
+  float: right;
+  position: relative;
+  margin-top: 569px;
+}
+
+.texto-candidaturas p {
+  line-height: 24px;
+  font-size: 14px;
+  color: #777777;
+}
+
+
+.texto-candidaturas h2 a{
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 130px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  background-color: #333333;
+  padding: 5px 10px 5px 10px;
+  text-align: left;
+  float: left;
+}
+
+.texto-candidaturas h2 a:hover{
+  text-decoration: underline;
+  color: #db903a;
+}
+
+.textos-can div a h3{
+    margin-top: 36px;
+    width: 32.666667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    font-size: 24px;
+    padding-left: 109px;
+    padding-right: 15px;
+    color: #395563;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.parallax-1 {
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  
+}
+
+.bg2{
+  background-image: url(../assets/images/parallax_elecciones.jpg);
+  height: 500px;
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: top center;
+  margin-top: 982px;
+}
+
+.patrones-1 {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  background-image: url(../assets/images/pattern.png);
+}
+
+.ptexto-1 {
+  display: table-cell;
+  height: 500px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+}
+
+.frase-1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 200;
+  margin: 0 5%;
+}
+
+.autor-1 {
   font-family: 'Arial, Verdana, Hervetica', sans-serif;
     height: 24px;
     width: auto;
