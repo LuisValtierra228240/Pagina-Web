@@ -421,7 +421,7 @@ width: 100%;
   font-weight: bold;
 }
 
-.texto-eleccion h6 a{
+.texto-eleccion h2 a{
   color: white;
   text-decoration: none;
   text-transform: none;
@@ -435,25 +435,81 @@ width: 100%;
   float: left;
 }
 
-.texto-eleccion h6 a:hover{
+.texto-eleccion h2 a:hover{
   text-decoration: underline;
-  
-
   color: #db903a;
 }
 
-.textos{
+.textos div a h3{
   margin-top: 30px;
-  width: 103%;
+  width: 16.6666667%;
   float: left;
   position: relative;
   min-height: 1px;
+  font-size: 24px;
   padding-left: 15px;
   padding-right: 15px;
   color: #395563;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   text-transform: uppercase;
-  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+}
+
+
+.parallax {
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  
+}
+
+.bg1{
+  background-image: url(../assets/images/parallax3.jpg);
+  height: 500px;
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: top center;
+}
+
+.patrones {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  background-image: url(../assets/images/pattern.png);
+}
+
+.ptexto {
+  display: table-cell;
+  height: 500px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+}
+
+.frase {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 200;
+  margin: 0 5%;
+}
+
+.autor {
+  font-family: 'Arial, Verdana, Hervetica', sans-serif;
+    height: 24px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    position: relative;
+    margin-top: 25px;
+    z-index: 200;
 }
 
