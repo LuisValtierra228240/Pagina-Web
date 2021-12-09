@@ -25,7 +25,7 @@ header{
 
 header {
   background: #ffffff;
-  height: 125px;
+  height: 130px;
   box-shadow: 0px 6px 14px 0px #7474742b;
   }
 
@@ -37,7 +37,8 @@ header {
 }
 nav.menu{
     float: right;
-    margin-right: 50px;
+    margin-right: 115px;
+    
 }
 
 nav.menu ul li {
@@ -53,7 +54,7 @@ nav.menu ul li a{
     font-weight:700;
     text-decoration: none;
     font-size: 12px;
-    padding: 10px 16px;
+    padding: 10px 10px;
 }
 
 
