@@ -11,6 +11,7 @@ body{
     margin:0;
     font-family: "Open Sans", Arial, sans-serif;
     color: #606060;
+    line-height: 22px;
 }
 header{
     background:#F1F1F1;
@@ -390,19 +391,29 @@ section.slider img.item-slider{
 
 /** ELECCIONES 2021**/
 
-.img-responsive{
-  width: 100%;
+.imagen-texto{
+  width: 58.33333333%;
+  padding-left: 15px;
+  padding-right: 15px;
   display: block;
   height: auto;
+  float:left;
+}
+.imagen-texto img{
+width: 100%;
 }
 
 .texto-eleccion{
-  right: 50%;
+  width: 41.66666667%;
   margin: 0;
-  padding: 0%;
-  box-sizing: border-box;
-  text-align: right;
-  float:unset;
+  padding-left: 15px;
+  float:right;
+}
+
+.texto-eleccion p {
+  line-height: 24px;
+  font-size: 14px;
+  color: #777777;
 }
 
 .strong{
