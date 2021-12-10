@@ -156,7 +156,6 @@ li.dropdo {
 .dropdo:hover .dropdo-content {
   display: block;
 }
-/**/
 
 .dropdow:hover .dropdow-content {
   display: block;
@@ -356,7 +355,6 @@ header nav  ul  li.dropdown .dropdown-menu {
   bottom: 377px;
   font: small-caption;
 }
-/** SLIDER **/
 
 .contenedor{
       padding-right: 104px;
@@ -373,8 +371,6 @@ header nav  ul  li.dropdown .dropdown-menu {
 .strong{
   font-weight: bold;
 }
-
-/*demas*/
 
 .barra{
   height: 82px;
@@ -420,19 +416,19 @@ header nav  ul  li.dropdown .dropdown-menu {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 0px; /* Place the button at the bottom of the page */
-  right: 10px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #404040; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 7px 7px 0 0; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #404040;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 7px 7px 0 0;
+  font-size: 18px;
   font-weight: bold;
   width: 50px;
   opacity: 0.75;

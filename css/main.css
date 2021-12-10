@@ -447,7 +447,6 @@ section.slider img.item-slider{
   margin: 0 0 14px 0;
 }
 
-/** ELECCIONES 2021**/
 .imagen-texto{
   width: 58.33333333%;
   padding-left: 15px;
@@ -511,6 +510,10 @@ width: 100%;
   text-transform: uppercase;
 }
 
+.textos div a h3:hover{
+  color: #c45418;
+}
+
 
 .parallax {
   margin-top: 30px;
@@ -568,8 +571,6 @@ width: 100%;
     margin-top: 25px;
     z-index: 200;
 }
-
-/** CANDIDATURAS INDEPENDIENTES**/
 
 h1.titulo-CANDIDATURAS {
   position: relative;
@@ -649,7 +650,9 @@ width: 100%;
   text-transform: uppercase;
 }
 
-
+.textos-can div a h3:hover{
+  color: #c45418;
+}
 
 .parallax-1 {
   margin-top: 30px;
@@ -734,6 +737,10 @@ width: 100%;
   text-transform: uppercase;
 }
 
+.textos-consejos div a h3:hover{
+  color: #c45418;
+}
+
 .bg3{
   background-image: url(../assets/images/parallax_consejos.jpg);
   height: 500px;
@@ -760,6 +767,10 @@ width: 100%;
   font-family: 'Oswald', sans-serif;
   text-align: center;
   text-transform: uppercase;
+}
+
+.textos-observadores div a h3:hover{
+  color: #c45418;
 }
 
 .bg4{
