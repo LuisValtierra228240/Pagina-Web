@@ -287,17 +287,65 @@ header nav  ul  li.dropdown .dropdown-menu {
   flex: 118 103 376%;
 }
 
-.dropdow-mega-sub-title{
-  font-size: 14px
+.dropdow-mega-sub-title {
+  position: relative;
+  left: -58px;
+  bottom: -31px;
+  color: black;
 }
 
-.dropdow-mega-sub-title-2{
-  font-size: 14px
+.dropdow-mega-sub-title-2 {
+  font-size: 15px;
+  color: black;
+  position: relative;
+  left: -67px;
+  bottom: -56px;
 }
 
+.dropdow-mega-sub-title-3 {
+  position: relative;
+  left: 278px;
+  bottom: 363px;
+  color: black;
+  font-size: 15px;
+}
 
+.dropdow-mega-sub-title-4 {
+  position: relative;
+  left: 330px;
+  bottom: 363px;
+  color: black;
+  font-size: 14px;
+}
 
+  
+.dropdow-item {
+  position: relative;
+  left: -65px;
+  bottom: -13px;
+  font: small-caption;
+}
 
+.dropdow-item-2 {
+  position: relative;
+  left: -77px;
+  bottom: -40px;
+  font: small-caption;
+}
+
+.dropdow-item-3 {
+  position: relative;
+  left: 268px;
+  bottom: 372px;
+  font: small-caption;
+}
+
+.dropdow-item-4 {
+  position: relative;
+  left: 321px;
+  bottom: 377px;
+  font: small-caption;
+}
 /** SLIDER **/
 
 section.slider{
@@ -722,6 +770,7 @@ width: 100%;
 .contenedorfinal {
   padding-right: 104px;
   padding-left: 104px;
+  margin-bottom: 1284px;
 }
 
 
