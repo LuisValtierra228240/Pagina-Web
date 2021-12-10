@@ -750,3 +750,104 @@ display:  inline-block;
 .sitios-interes div a img:hover{
   -webkit-filter: grayscale(100%);
 }
+
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+  background-color: #fffefe;
+    box-shadow: 0 1px 0 0 #151515;
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+html .btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+  background-color: #395563;
+  border-color: #395563 #395563 #263943;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #395563;
+  border-color: #395563;
+}
+
+label.text-light {
+  position: relative;
+  margin-left: -80px;
+}
+
+a.logo-i {
+  position: relative;
+  left: 393px;
+  bottom: 446px;
+}
+
+p.informacion {
+  position: relative;
+  bottom: 430px;
+  left: 389px;
+  margin-right: -511px;
+  line-height: 20px;
+  text-align: justify;
+  font-size: 14px;
+}
+
+h5.f {
+  position: relative;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.col-md-5 {
+  width: 41.66666667%;
+}
+
+.col-md-5{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 0px;
+  top: 69px;
+}
+
+.form-control {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: rgb(85, 85, 85);
+  border-radius: 4px;
+}
+
+p.c {
+  position: relative;
+  bottom: 435px;
+  left: 392px;
+  text-align: justify;
+  font-size: 15px;
+  margin-right: -362px;
+}
+
+.social-icons {
+  position: relative;
+  bottom: 435px;
+  left: 392px;
+  text-align: justify;
+  font-size: 15px;
+  margin-right: -688px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
