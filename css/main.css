@@ -717,3 +717,36 @@ width: 100%;
   background-position: top center;
   margin-top: 1000px;
 }
+
+
+.contenedorfinal {
+  padding-right: 104px;
+  padding-left: 104px;
+}
+
+
+.contenedorfinal h1{
+font-family: 'Oswald', sans-serif;
+font-size: 34px;
+font-weight: 400;
+text-transform: uppercase;
+color: #606060;
+margin-top: 50px;
+margin-bottom: 10px;
+text-align: center;
+display:  inline-block;
+}
+
+.sitios-interes div a img{
+  width: 16.6666667%;
+  margin-top: 540px;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sitios-interes div a img:hover{
+  -webkit-filter: grayscale(100%);
+}
