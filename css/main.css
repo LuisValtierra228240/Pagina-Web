@@ -79,9 +79,17 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdow:hover .dropbtn {
+  color: white;
   background-color: var(--azul_Estandar);
 }
 
+.dropdow a:hover{
+  color: white;
+}
+
+.droponly a:hover{
+  color: white;
+}
 
 li.dropdow {
   display: inline-block;
@@ -117,6 +125,7 @@ li a, .drop {
 }
 
 li a:hover, .dropdo:hover .drop {
+  color: white;
   background-color: var(--azul_Estandar);
 }
 
@@ -771,6 +780,7 @@ width: 100%;
   padding-right: 104px;
   padding-left: 104px;
   margin-bottom: 1284px;
+  height: 700px;
 }
 
 
