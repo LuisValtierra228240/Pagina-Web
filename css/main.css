@@ -531,8 +531,8 @@ h1.titulo-CANDIDATURAS {
 
 .imagen-texto-1{
   width: 58.33333333%;
-  padding-left: 118px;
-  padding-right: 38px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 575px;
   display: block;
   height: auto;
@@ -578,18 +578,18 @@ width: 100%;
 }
 
 .textos-can div a h3{
-    margin-top: 36px;
-    width: 32.666667%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    font-size: 24px;
-    padding-left: 109px;
-    padding-right: 15px;
-    color: #395563;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
+  margin-top: 30px;
+  width: 33.3333334%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #395563;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
@@ -611,7 +611,7 @@ width: 100%;
   background-size: cover;
   background-repeat: repeat-y;
   background-position: top center;
-  margin-top: 1094px;
+  margin-top: 1000px;
 }
 
 .patrones-1 {
@@ -629,6 +629,7 @@ width: 100%;
     overflow: hidden;
 }
 
+
 .frase-1 {
   font-family: 'Oswald', sans-serif;
   font-size: 24px;
@@ -638,6 +639,16 @@ width: 100%;
   text-transform: uppercase;
   z-index: 200;
   margin: 0 5%;
+}
+
+.frase-2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 200;
 }
 
 .autor-1 {
@@ -652,3 +663,57 @@ width: 100%;
     z-index: 200;
 }
 
+.textos-consejos div a h3{
+  margin-top: 30px;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  font-size: 24px;
+  padding-left: 100px;
+  padding-right: 15px;
+  color: #395563;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bg3{
+  background-image: url(../assets/images/parallax_consejos.jpg);
+  height: 500px;
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: top center;
+  margin-top: 1000px;
+}
+
+.textos-observadores div a h3{
+  width: 50%;
+  margin-top: 30px;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  font-size: 24px;
+  padding-left: 100px;
+  padding-right: 15px;
+  color: #395563;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bg4{
+  background-image: url(../assets/images/parallax_elecciones02.jpg);
+  height: 500px;
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: top center;
+  margin-top: 1000px;
+}
